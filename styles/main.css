@@ -1,6 +1,6 @@
 :root {
     --title-color: #322153;
-    --primary-color: #34cb89;
+    --primary-color: linear-gradient(186.34deg, #F65FC0 16.9%, #8031A7 115.64%); 
 }
 
 * {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 #page-home main a span {
     width: 72px;
     height: 72px;
-    background-color: linear-gradient(186.34deg, #F65FC0 16.9%, #8031A7 115.64%); 
+    background-color: linear-gradient(#8031A7 115.64%, 186.34deg, #F65FC0 16.9%);  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 #page-home main a span::after {
     content: "";
     background-image: url('../assets/search.svg');
+    background-color: linear-gradient(#8031A7 115.64%, 186.34deg, #F65FC0 16.9%);
     width: 20px;
     height: 20px;
 

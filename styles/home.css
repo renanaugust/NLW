@@ -69,7 +69,7 @@
 }
 
 #page-home main a:hover {
-    background-color: linear-gradient(#8031A7 115.64%), 186.34deg, #F65FC0 16.9% ;
+    background-color: linear-gradient(186.34deg, #8031A7 115.64%, #F65FC0 16.9%);
     color: var(--primary-color);
     border: 2px solid var(--title-color);
 }
@@ -77,7 +77,7 @@
 #page-home main a span {
     width: 72px;
     height: 72px;
-    background-color: linear-gradient(#8031A7 115.64%, 186.34deg, #F65FC0 16.9%);  
+    background-color: linear-gradient(186.34deg, #8031A7 115.64%, #F65FC0 16.9%);  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,7 +86,7 @@
 #page-home main a span::after {
     content: "";
     background-image: url('../assets/search.svg');
-    background-color: linear-gradient(#8031A7 115.64%, 186.34deg, #F65FC0 16.9%);
+    background-color: linear-gradient(186.34deg, #8031A7 115.64%, #F65FC0 16.9%)!important;
     width: 20px;
     height: 20px;
 

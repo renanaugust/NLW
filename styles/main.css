@@ -1,11 +1,12 @@
 :root {
-    --title-color: #322153;
+    --title-color: #8031a7;
     --primary-color: linear-gradient(186.34deg, #F65FC0 16.9%, #8031A7 115.64%); 
 }
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -13,7 +14,7 @@ html {
 }
 
 body {
-    background: #8031a7;
+    background: #000000;
     -webkit-font-smoothing: antialiased;
 }
 

@@ -34,7 +34,7 @@ form {
     background-color: black;
     margin: 80px;
     padding: 64px;
-    border: 2px solid #8031a7;
+    border: 1px solid #8031a7;
     border-radius: 8px;
     max-width: 730px;
     box-shadow: 10px 10px 4px 4px purple;
@@ -43,26 +43,26 @@ form {
 
 form h1 {
     font-size: 36px;
-    color: green;
+    color: #8031a7;
 }
 
 form fieldset {
     margin-top: 64px;
     border: 0;
-    color: green;
+    color: #8031a7;
 
 }
 
 form legend {
     margin-bottom: 40px;
-    color: green;
+    color: #8031a7;
 
 
 }
 
 form legend h2 {
     font-size: 24px;
-    color: green;
+    color: #8031a7;
 
 }
 
@@ -71,7 +71,7 @@ form .field {
     display: flex;
     flex-direction: column;
     margin-bottom: 24px;
-    color: green;
+    color: #8031a7;
 
 }
 
@@ -81,14 +81,15 @@ form .field-group {
 }
 
 form input, form select {
-    background-color: #ffffff;
+    background-color: #f5bdec;
     border: 2px solid #8031a7;
     padding: 16px 24px;
-    color: green;
+    color: #8031a7;
     border-radius: 8px;
     font-size: 16px;
     /* outline: none; */
 }
+
 
 form select {
     -webkit-appearance: none;
@@ -119,4 +120,49 @@ form button {
 
 form button:hover {
     background-color: #2fb86e;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.items-grid li {
+    background-color: #f5bdec;
+    list-style: none;
+    border-radius: 8px ;
+    border: 2px solid #8031a7;
+    height: 180px;
+    padding: 32px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.items-grid li:hover {
+    background: #b988d1;
+    
+}
+
+.items-grid li span {
+    margin-top: 12px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--title-color);
+}
+
+.items-grid li.selected {
+    background: #e1faec;
+    border: 2px solid #34cb79;
+}
+
+.items-grid li img, 
+.items-grid li span {
+    pointer-events: none;
 }
